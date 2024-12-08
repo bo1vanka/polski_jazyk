@@ -1,0 +1,34 @@
+/* Aplhabet.module.scss */
+
+.letterr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 13px;
+    column-gap: 50px;
+    height: auto;
+    font-size: 30px;
+    margin: 40px 100px;
+    background-color: #ece7e7;
+    padding: 10px 10px;
+    width: 800px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+}

@@ -1,0 +1,37 @@
+/* header.module.scss */
+.navbar {
+    background-color: #464246;
+}
+
+.navbar .nav-link.active {
+    color: #fff;
+    /* Пример активного цвета */
+}
+
+.navbar-toggler {
+    border: none;
+    /* Убираем рамку для кнопки */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    /* Белая иконка для кнопки */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+
+    &:hover {
+        color: #f0a500;
+        /* Цвет при наведении */
+    }
+}
+
+.navbar-nav .nav-link.active {
+    color: #f0a500;
+    /* Цвет для активной ссылки */
+}
