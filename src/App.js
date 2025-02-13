@@ -8,12 +8,15 @@ import Login from './pages/Login/Login';
 import Footer from './shared/Footer/Footer';
 import Books from './pages/Books/Books';
 import Registration from './pages/Registration/Registration';
+import FlashCardsChoice from './pages/FlashCardsChoice/FlashCardsChoice';
+import FlashCards from './pages/FlashCards/FlashCards';
 function App() {
   return (
     <div className="App">
         
       <Router>
       <Header/>
+      
       <Routes>
       
         <Route path="/" element={<Home />} />
@@ -22,7 +25,8 @@ function App() {
         <Route path="/books" element={<Books />} />
         <Route path="/book" element={<Books />} /> 
         <Route path="/registration" element={<Registration />} />
-         
+        <Route path="/flashcardschoice" element={<FlashCardsChoice />} />
+        <Route path="/flashcards/:theme" element={<FlashCards />} />
       </Routes>
       <Footer />
     </Router>

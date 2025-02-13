@@ -9,7 +9,7 @@ const Book = (props) => {
       <div className={s.card}>
         <img src={props.img} className={s.card_img} alt="card_image" />
         <div className={s.card_body}>
-          <h5 className={s.card_title}>{props.title}</h5>
+          <h5 className={s.card_title}>{props.title}{props.title}</h5>
           <p className={s.card_text}>
             {props.text} 
           </p>
